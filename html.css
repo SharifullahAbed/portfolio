@@ -1,0 +1,217 @@
+* {
+    margin: 0;
+    padding: 0%;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: #eff4ef;
+    color: white;
+}
+
+body {
+    background-image: linear-gradient(to left, rgba(252, 245, 0.156), rgba(108, 43, 43, 0.63)), url("../../javier-miranda-kBU5APay4T0-unsplash.png") !important;
+    background-size: cover !important;
+}
+
+nav {
+    padding: 10px;
+    display: flex;
+    margin-right: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    align-items: center;
+    justify-content: space-between;
+    color: black;
+    background: linear-gradient(to left, rgba(252, 245, 0.156), rgba(108, 43, 43, 0.63));
+    box-shadow: 0 8px 4px rgba(10, 60, 0, 0.2);
+}
+
+nav:hover {
+    background-color: white;
+    transition: 1s;
+    box-shadow: solid black;
+    background: transparent;
+    margin-inline: 20px;
+}
+
+nav ul li {
+    display: inline-block;
+    color: black;
+    list-style: none;
+    margin: 10px;
+    margin-right: 110px;
+    text-decoration: none;
+    border-radius: 10px;
+    padding: 5px 11px;
+    background: transparent;
+}
+
+nav ul li a {
+    color: black;
+}
+
+nav ul li a:hover {
+    color: grey;
+    transition: 0.2s;
+}
+
+.logo {
+    margin-top: 15px;
+    margin-left: 50px;
+    margin-bottom: 20px;
+    width: 100px;
+}
+
+.detail {
+    margin-left: 60px;
+    font-size: 20px;
+    color: solid black;
+    display: inline-block;
+    margin-top: 10px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.detail h1 {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 30px;
+    margin-left: 40px;
+}
+
+.detail p {
+    margin-left: 40px;
+    margin-top: 10px;
+    line-height: 25px;
+    width: 800px;
+}
+
+.detail a {
+    font-size: medium;
+    font-family: 'Times New Roman', Times, serif;
+    margin-top: 20px;
+    background: black;
+    border-radius: 10px;
+    margin-left: 70px;
+    color: aliceblue;
+    padding: 10px 15px;
+    display: inline-block;
+    font-weight: bold;
+}
+
+.detail a:hover {
+    background-color: white;
+    color: black;
+    transition: 0.5s;
+}
+
+.profile-pic {
+    margin-left: 1000px;
+    border-radius: 70%;
+    width: 300px;
+    height: 500px;
+    margin-top: 50px;
+    display: inline-block;
+    outline: none;
+    border: 1px solid;
+}
+
+.pic-div {
+    width: 10px;
+    height: 50px;
+}
+
+span {
+    color: orange;
+}
+
+.contact-span {
+    color: darkorange;
+    padding-left: 100px;
+    margin-top: 100px;
+    font-weight: bold;
+    font-size: 30px;
+    margin-left: 100px;
+    width: fit-content;
+    display: flex;
+    line-height: 2;
+}
+
+.contact-page p {
+    line-height: 30px;
+    width: 1100px;
+    margin-left: 90px;
+    padding-left: 100px;
+    font-size: large;
+    font-weight: initial;
+    line-height: 1.5;
+    display: inline-block;
+}
+
+.telephone-div {
+    width: 100px;
+    height: 0;
+}
+
+.tele-pic1 {
+    margin-top: 50px;
+    border-radius: 15px;
+    margin-left: 900px;
+    width: 500px;
+    height: 500px;
+    display: inline-block;
+    margin-bottom: 600px;
+}
+
+.hire-page {
+    width: 800px;
+    margin-top: 50px;
+    height: fit-content;
+    text-align: center;
+    margin-left: 350px;
+    font-family: 'Times New Roman', Times, serif, !important;
+    margin-bottom: 100px;
+    line-height: 1.5;
+    border-radius: 70px;
+}
+
+.hire-page:hover {
+    background-color: blueviolet;
+    transition: 0.7s;
+    padding-left: 20px;
+    padding-right: 30px;
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+
+.Hire-me {
+    font-size: 30px;
+}
+
+.about-me {
+    color: orange;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 30px;
+}
+
+.about {
+    width: 800px;
+    margin-top: 50px;
+    height: fit-content;
+    text-align: center;
+    margin-left: 350px;
+    font-family: 'Times New Roman', Times, serif, !important;
+    margin-bottom: 100px;
+    line-height: 1.5;
+}
+
+.about:hover {
+    background-color: blueviolet;
+    transition: 0.7s;
+    padding-left: 20px;
+    padding-right: 30px;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    border-radius: 60px;
+}
